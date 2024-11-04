@@ -24,29 +24,62 @@
 <div id="bios" class="container">
     <!-- Each card represents an individual team member -->
     <div class="card">
-        <h2>John Doe</h2>
-        <p>Frontend Developer</p>
-        <button onclick="toggleBio('bio1')">Show Bio</button>
-        <p id="bio1" class="bio">John is a skilled frontend developer with 5 years of experience in creating responsive web applications.</p>
-    </div>
-    <div class="card">
-        <h2>Jane Smith</h2>
-        <p>Backend Developer</p>
-        <button onclick="toggleBio('bio2')">Show Bio</button>
-        <p id="bio2" class="bio">Jane is a backend developer specializing in server-side logic and database management.</p>
-    </div>
-    <div class="card">
-        <h2>Emily Johnson</h2>
-        <p>UI/UX Designer</p>
-        <button onclick="toggleBio('bio3')">Show Bio</button>
-        <p id="bio3" class="bio">Emily is a UI/UX designer with a passion for creating user-friendly interfaces.</p>
-    </div>
+    <img src="img/anish.jpg" alt="Anish's Avatar" class="avatar">
+    <h2>Anish Gudi</h2>
+    <p class="role">Digital Craftsman</p>
+    <button onclick="toggleBio('bio1')">Show More About Anish</button>
+    <section id="bio1" class="bio">
+        <p>Anish is a digital artisan who builds smooth, visually engaging user experiences. With a keen eye for detail, he transforms complex concepts into intuitive interfaces, prioritizing clarity and elegance.</p>
+        <div class="moodboard anish-mood">
+            <a href="https://github.com/Agudi2" target="_blank"><img src="img/github.png" alt="GitHub"></a>
+            <a href="https://reactjs.org" target="_blank"><img src="img/react.png" alt="React"></a>
+            <a href="https://stackoverflow.com" target="_blank"><img src="img/stackoverflow.png" alt="Stack Overflow"></a>
+        </div>
+    </section>
+</div>
+
+<div class="card">
+    <img src="img/amin.jpg" alt="Amin's Avatar" class="avatar">
+    <h2>Amin Saadaoui</h2>
+    <p class="role">Logic Architect</p>
+    <button onclick="toggleBio('bio2')">Show More About Amin</button>
+    <section id="bio2" class="bio">
+        <p>Amin shapes the unseen architecture that powers every application. As a master of logic and data flow, he ensures that each system operates flawlessly and that every process is optimized for speed and reliability.</p>
+        <div class="moodboard amin-mood">
+            <a href="https://github.com/aminxsaadaoui" target="_blank"><img src="img/github.png" alt="GitHub"></a>
+            <a href="https://nodejs.org" target="_blank"><img src="img/nodejs.png" alt="Node.js"></a>
+            <a href="https://stackoverflow.com" target="_blank"><img src="img/stackoverflow.png" alt="Stack Overflow"></a>
+        </div>
+    </section>
+</div>
+
+<div class="card">
+    <img src="img/cheikh.jpg" alt="Cheikh's Avatar" class="avatar">
+    <h2>Cheikh Fall</h2>
+    <p class="role">Experience Curator</p>
+    <button onclick="toggleBio('bio3')">Show More About Cheikh</button>
+    <section id="bio3" class="bio">
+        <p>Cheikh crafts cohesive user journeys that merge form with function. With a deep understanding of aesthetics and interaction design, he makes each experience not only useful but delightful and memorable.</p>
+        <div class="moodboard cheikh-mood">
+            <a href="https://github.com/Cheikhfallsonicfan" target="_blank"><img src="img/github.png" alt="GitHub"></a>
+            <a href="https://www.adobe.com/products/xd.html" target="_blank"><img src="img/adobe_xd.png" alt="Adobe XD"></a>
+            <a href="https://www.behance.net" target="_blank"><img src="img/behance.png" alt="Behance"></a>
+        </div>
+    </section>
+</div>
+
 </div>
 
 <!-- Team vision/mission statement section (hidden by default) -->
 <div id="vision" class="container" style="display: none;">
     <h2>Our Mission Statement</h2>
-    <p>We strive to create a collaborative, inclusive, and innovative environment where team members feel empowered to push boundaries and achieve excellence in their craft. Our mission is to deliver high-quality solutions that meet and exceed our clients' expectations.</p>
+    <p>Our team is dedicated to creating inclusive, innovative, and efficient solutions. We value continuous learning, respect, and open communication to foster a productive environment.</p>
+    <h3>Our Team Rules:</h3>
+    <ul>
+        <li>Practice clear, respectful communication.</li>
+        <li>Support each other’s growth and development.</li>
+        <li>Prioritize collaboration over competition.</li>
+    </ul>
 </div>
 
 <script src="script.js"></script> <!-- Link to external JavaScript file -->
