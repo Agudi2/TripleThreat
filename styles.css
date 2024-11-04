@@ -87,3 +87,14 @@ button {
 button:hover {
     background: #0056b3;
 }
+
+.moodboard img {
+    width: 30px; / Adjust the size as needed /
+    height: 30px;
+    margin: 5px;
+    transition: transform 0.2s;
+}
+
+.moodboard img:hover {
+    transform: scale(1.1); / Slightly enlarge on hover for effect */
+}
